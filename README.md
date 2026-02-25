@@ -44,7 +44,7 @@ I'm a designer and systems-builder at **Effortless Labs**. We attack complexity 
 
 My canvas isn't just the screen. It's the behaviour surface: where human expectation and machine memory collide. We can't paper over that with nicer gradients. We have to move memory from "nice add-on" to "first brick we lay."
 
-<div align="center">
+<div align="left">
 
 > **Build systems that remember, behave, and get out of your way.**
 
