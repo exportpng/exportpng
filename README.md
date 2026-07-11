@@ -1,53 +1,59 @@
-<div align="center">
+## I've watched a lot of expensive software forget things.
 
-<video src="cosmic_text_remix.mp4" autoplay loop muted playsinline width="100%"></video>
+Seven years in crypto infrastructure — Bitfinex, Tether, Ankr, Biconomy — building systems where state isn't optional and a missed transaction is a lawsuit. Systems that couldn't afford amnesia.
 
-# exportpng
+Then the AI wave hit, and the industry shipped agents that forget everything between sessions and called it a product.
 
-**I build systems that remember.**
+Ask a production coding agent what it tried last Tuesday. You get nothing. Not "I tried X and it failed because Y." Nothing. Every session starts from scratch. Every mistake gets made twice. Every solution gets rediscovered like it's the first time. We built recall for the model and forgot to build memory for the system running it.
 
-*Effortless Labs · Hyperbola · LocusGraph — writing on agentic design and crypto.*
-
----
-
-</div>
-
-## The goldfish problem.
-
-Most technology has the memory of a goldfish. Close the tab, kill the process. It greets you like a stranger. Your inbox forgets what you've ignored. Your "smart" systems forget the last time they broke you.
-
-We treated that like a scaling problem. A "we'll fix it in v3" problem.
+That's the problem I work on.
 
 ---
 
-## Where forgetting isn't cute.
+## LocusGraph
 
-I've spent a decade in places where forgetting isn't cute. It's catastrophic. Seven years in crypto (Bitfinex, Tether, Ankr, Biconomy). There, design isn't polish. It's what keeps the thing from tearing itself apart. You start to see **behaviour** as the real surface area. What the system does the hundredth time, not the first. Behaviour without memory is chaos with a glossy UI.
+**Agents don't have bad memory. They have no memory architecture.**
 
-Today we've filled the world with "intelligent" systems that forget you between breaths. Same input, different mood. We call it "non-determinism." To the user it just feels like: *this thing doesn't remember me.*
+The usual fix — vector search over old conversations — sounds right for about ten minutes. Similarity search finds things that *look like* what you asked. What you need is things that are *relevant* to what you asked. Those aren't the same operation. A support agent pulling "conversations about billing" hands you the ten most similar complaints, not the one fix that actually worked.
 
-> **Memory is not a feature. It's a spine.** Spines don't live in "recently used" lists or Post-its on a fridge. They live in how a system stores what it believes, updates when it's wrong, and refuses to repeat the same mistake. That's architecture.
+LocusGraph is a structured knowledge layer. When an agent handles something, it doesn't dump a transcript — it writes a typed, temporal, relational record: what happened, what worked, what didn't, and why. A vector store is a pile of emails. LocusGraph is a CRM. One is searchable. The other is usable.
 
----
+Model-agnostic and owner-controlled. Trade GPT-4 for Claude for whatever ships next quarter — the graph stays. You own the data. No vendor memory API that can hike pricing, pivot, or decide your use case is out of scope.
 
-## What I do.
-
-I'm a designer and systems-builder at **Effortless Labs**. We attack complexity at the root: take brutal systems and bury their complexity so deep that on the surface they feel stupidly simple. That's where **Hyperbola** (how you *touch* the system) and **LocusGraph** (how the system *remembers*) live.
-
-**LocusGraph** is a cognitive state layer for agents. Conclusions carry forward. Bad calls get contradicted once. Same inputs, same decisions. You stop treating your agent like a brilliant intern who hit their head every morning. You treat it like a colleague who remembers what the team decided last week.
+**Who it's for:** teams running coding agents, support agents, and SaaS copilots in production. Not demos. Production.
 
 ---
 
-## Not the screen.
+## The Seven-Year Interlude
 
-*Expectation meets memory. One of them has amnesia.*
+Crypto infrastructure is a masterclass in what happens when a system can't afford ambiguity. At Bitfinex you learn that unstructured state kills you. At Tether you learn that auditability isn't optional. At Ankr and Biconomy you learn that developer tools live or die on whether they work in production — not on how clean they look in a blog post.
 
-My canvas isn't just the screen. It's the behaviour surface: where human expectation and machine memory collide. We can't paper over that with nicer gradients. We have to move memory from "nice add-on" to "first brick we lay."
+The common thread: when the mistakes are denominated in real money, you get serious about data structures fast.
 
-<div align="left">
+I brought that habit to AI agents. Everyone else was excited about what LLMs could generate. I kept asking what they were being built on top of. Too often the answer was vibes.
 
-> **Build systems that remember, behave, and get out of your way.**
+---
 
-*That's the work.*
+## What I'm Building
 
-</div>
+**LocusGraph** — structured knowledge infrastructure that lets AI agents learn from experience. For teams running coding agents, support agents, and SaaS copilots in production.
+
+**Dobby** — the workflow automation agent. The thing that actually runs.
+
+**Effortless Labs** — the company. Singapore. Small team, strong opinions, reasonable caffeine intake.
+
+---
+
+## The Actual Pitch
+
+If you're running AI agents in production and your engineers are debugging failures the agent hit last week, you don't have a model problem. You have a knowledge infrastructure problem.
+
+Most teams answer this by cramming more into the prompt. That works right up until the context window fills, the model loses the thread, or you're paying to re-explain your whole codebase every session.
+
+The other answer is RAG — a fine technology, built for documents. Agents aren't documents.
+
+LocusGraph is what you get when you take the real problem seriously: structured, typed, temporal knowledge an agent can reason over, not just retrieve. That's a different thing.
+
+---
+
+**LocusGraph** · [locusgraph.com](https://locusgraph.com) · **X** · [x.com/exportpng](https://x.com/exportpng) · Singapore
