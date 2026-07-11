@@ -26,7 +26,7 @@ I founded [Effortless Labs](https://effortlesslabs.xyz) — a small, opinionated
 
 We're building two things:
 
-[**LocusGraph**] (https://locusgraph.com) — a structured knowledge layer for AI agents. Not a transcript log. Not a vector store. A typed, temporal, relational record of what happened, what worked, what didn't, and why. It's model-agnostic (works across GPT-4, Claude, whatever comes next) and owner-controlled — so you're not dependent on a vendor memory API that can reprice or pivot on you tomorrow. Your knowledge graph persists independently of the model underneath it.
+**LocusGraph** (https://locusgraph.com) — a structured knowledge layer for AI agents. Not a transcript log. Not a vector store. A typed, temporal, relational record of what happened, what worked, what didn't, and why. It's model-agnostic (works across GPT-4, Claude, whatever comes next) and owner-controlled — so you're not dependent on a vendor memory API that can reprice or pivot on you tomorrow. Your knowledge graph persists independently of the model underneath it.
 
 It's built for teams running coding agents, support agents, and SaaS copilots in production. Not in demos. In production.
 
