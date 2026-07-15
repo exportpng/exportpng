@@ -27,8 +27,9 @@ I founded [Effortless Labs](https://effortlesslabs.xyz) — a product-obsessed e
 ## Recognition & Awards
 
 <p align="center">
-  <img src="./assets/web3-innovator-2023.jpg" alt="Web 3.0 Innovator of the Year — BW Businessworld Web 3.0 Summit & Awards 2023" width="46%" />
-  <img src="./assets/entrepreneur-awards-2023.jpg" alt="Entrepreneur Awards 2023" width="46%" />
+  <img src="./assets/entrepreneur-awards-2023.jpg" alt="Entrepreneur Awards 2023" width="30%" />
+  <img src="./assets/web3-innovator-2023.jpg" alt="Web 3.0 Innovator of the Year — BW Businessworld Web 3.0 Summit & Awards 2023" width="30%" />
+  
 </p>
 
 - 🏆 **Web 3.0 Innovator of the Year (Bronze)** — BW Businessworld Web 3.0 Summit & Awards 2023
