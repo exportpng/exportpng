@@ -1,49 +1,44 @@
-# Seven Years in Crypto. Now I'm Fixing How AI Agents Remember.
+# Hi, I'm Varun Satyam 👋
 
----
-
-## The short version
-
-I spent seven years deep in crypto infrastructure — at Bitfinex, Tether, Ankr, and Biconomy — building systems where state wasn't optional. In those environments, a missed transaction isn't just a bug. It can have legal consequences. So you learn, fast, that systems need to remember.
-
-Then the AI agent wave hit. And I noticed something strange: most of these agents ship with amnesia.
-
----
-
-## What I kept seeing
-
-Production coding agents with no memory of what they tried last session. Support agents that rediscover the same solution every single time a ticket comes in. Teams patching this by stuffing more context into the prompt — until they hit the context window. Or paying to re-explain the entire codebase. Every. Single. Session.
-
-The standard fix is RAG — retrieval-augmented generation. Which is a great technology. For documents. But agents aren't documents.
-
-And vector search? Here's how I think about it: a pile of emails versus a CRM. A pile of emails can surface things that look similar. A CRM tells you what actually happened, what worked, and why. Those are not the same thing.
+**Product & design-led founder building at the intersection of crypto and AI.**  
+~7 years across Web3 — from protocol UX at Ankr and Bitfinex to founding a DeFi protocol — now building AI-agent tooling at Effortless Labs, Singapore.
 
 ---
 
 ## What I'm building
 
-I founded [Effortless Labs](https://effortlesslabs.xyz) — a small, opinionated team based in Singapore — to work on this exact problem.
+I founded [Effortless Labs](https://effortlesslabs.xyz) — a small, opinionated team in Singapore — to build tools that give AI agents lasting, structured memory.
 
-We're building two things:
-
-**LocusGraph** (https://locusgraph.com) — a structured knowledge layer for AI agents. Not a transcript log. Not a vector store. A typed, temporal, relational record of what happened, what worked, what didn't, and why. It's model-agnostic (works across GPT-4, Claude, whatever comes next) and owner-controlled — so you're not dependent on a vendor memory API that can reprice or pivot on you tomorrow. Your knowledge graph persists independently of the model underneath it.
-
-It's built for teams running coding agents, support agents, and SaaS copilots in production. Not in demos. In production.
-
-**Dobby** — a workflow automation agent. More on this soon.
+- **[Hyperbola Network](https://hyperbola.network)** — an intelligence and infrastructure layer for AI agents.
+- **[Igris](https://igris.bot)** — an AI agent product for real, in-production workflows.
+- **LocusGraph** — a typed, temporal, relational knowledge layer for AI agents. Model-agnostic and owner-controlled, so your knowledge graph persists independently of whatever model sits underneath it.
 
 ---
 
-## A small but important distinction
+## Where I've been
 
-LocusGraph isn't trying to help agents retrieve better. It's trying to help agents reason over structured knowledge. There's a difference between pulling up something that looks relevant and actually knowing what resolution applies to this specific situation.
-
-That distinction matters a lot when you've spent seven years in systems where getting it wrong has consequences.
+- **Davos Protocol** — Co-Founder & CEO. Built the first native yield-bearing decentralized stablecoin; grew to $1M+ TVL in two months, backed by a $500K pre-seed from Polygon Studios and Sandeep Nailwal.
+- **Bitfinex** — UX Designer, working on Lightning Network products (2021).
+- **Ankr** — Protocol UX Designer & Project Lead; led UX across 13+ blockchain node integrations (2019–2020).
+- Community building with Vizag Startups and Web Summit. BTech, Computer Science — JNTU.
 
 ---
 
-## Let's talk
+## Recognition & Awards
 
-If you're building with agents in production and you're tired of watching them make the same mistake twice — I'd genuinely love to compare notes.
+<p align="center">
+  <img src="./assets/web3-innovator-2023.jpg" alt="Web 3.0 Innovator of the Year — BW Businessworld Web 3.0 Summit & Awards 2023" width="46%" />
+  <img src="./assets/entrepreneur-awards-2023.jpg" alt="Entrepreneur Awards 2023" width="46%" />
+</p>
 
-Find me here, or reach out directly. Strong opinions and reasonable caffeine intake included at no extra charge.
+- 🏆 **Web 3.0 Innovator of the Year (Bronze)** — BW Businessworld Web 3.0 Summit & Awards 2023
+- 🏆 **Entrepreneur Awards 2023**
+- 🌟 **Entrepreneur Magazine — 35 Under 35**
+
+---
+
+## Let's connect
+
+- 🌐 [varunsatyam.com](https://varunsatyam.com)
+- 💼 [LinkedIn](https://linkedin.com/in/exportpng)
+- 🛠️ Effortless Labs: [github.com/effortlesslabs](https://github.com/effortlesslabs) · [github.com/hyperbolanetwork](https://github.com/hyperbolanetwork)
