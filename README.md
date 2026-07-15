@@ -7,7 +7,7 @@
 
 ## What I'm building
 
-I founded [Effortless Labs](https://effortlesslabs.xyz) — a small, opinionated team in Singapore — to build tools that give AI agents lasting, structured memory.
+I founded [Effortless Labs](https://effortlesslabs.xyz) — a product-obsessed engineering lab in Singapore on a mission to destroy the learning curve. We take the most intimidating, complex systems and make them effortless to use, so people don't just learn technology, they own it.
 
 - **[Hyperbola Network](https://hyperbola.network)** — an intelligence and infrastructure layer for AI agents.
 - **[Igris](https://igris.bot)** — an AI agent product for real, in-production workflows.
